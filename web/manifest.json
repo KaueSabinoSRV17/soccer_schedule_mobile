@@ -1,0 +1,19 @@
+{
+    "name": "Soccer Schedule · Demonstração",
+    "short_name": "Soccer Schedule",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0C120F",
+    "theme_color": "#0C120F",
+    "description": "Demonstração local das escolhas diárias de jogos.",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "favicon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        }
+    ]
+}

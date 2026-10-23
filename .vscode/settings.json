@@ -1,0 +1,24 @@
+{
+  "dart.flutterSdkPath": ".tooling/flutter",
+  "dart.env": {
+    "ANDROID_HOME": "${workspaceFolder}/.tooling/android-sdk",
+    "ANDROID_SDK_ROOT": "${workspaceFolder}/.tooling/android-sdk",
+    "JAVA_HOME": "${workspaceFolder}/.tooling/jdk",
+    "PUB_CACHE": "${workspaceFolder}/.tooling/pub-cache",
+    "GRADLE_USER_HOME": "${workspaceFolder}/.tooling/gradle",
+    "ADB_SERVER_SOCKET": "tcp:localhost:5037"
+  },
+  "terminal.integrated.profiles.linux": {
+    "Soccer Schedule": {
+      "path": "/usr/sbin/zsh",
+      "args": ["-i"],
+      "env": {
+        "ANDROID_HOME": "${workspaceFolder}/.tooling/android-sdk",
+        "JAVA_HOME": "${workspaceFolder}/.tooling/jdk",
+        "ADB_SERVER_SOCKET": "tcp:localhost:5037"
+      }
+    }
+  },
+  "editor.formatOnSave": true,
+  "[dart]": { "editor.defaultFormatter": "Dart-Code.dart-code" }
+}

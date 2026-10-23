@@ -1,0 +1,55 @@
+# Local SDKs, caches and generated Flutter files
+/.tooling/
+.dart_tool/
+.pub/
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+coverage/
+/doc/api/
+app.*.symbols
+app.*.map.json
+
+# Android machine configuration and build output
+.gradle/
+.kotlin/
+.cxx/
+/android/local.properties
+/android/captures/
+*.apk
+*.aab
+*.apks
+
+# Environment files and exported Firebase client configuration
+/.config/
+.env
+.env.*
+!.env.example
+/android/app/google-services.json
+/lib/firebase_options.dart
+
+# Signing credentials and private keys
+key.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+
+# Personal tooling, editor state, logs and OS files
+/.agents/
+/.codex/
+/.aws/
+.idea/
+*.iml
+*.log
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Keep pubspec.lock, .metadata and shared .vscode settings in source control.

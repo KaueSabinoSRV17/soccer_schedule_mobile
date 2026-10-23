@@ -1,0 +1,6 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {"name": "Soccer Schedule (demo)", "request": "launch", "type": "dart", "program": "lib/main.dart"}
+  ]
+}
